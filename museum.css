@@ -98,6 +98,10 @@ h1 { margin: 0; font: 400 clamp(4rem, 8vw, 7.4rem)/.86 var(--serif); letter-spac
 .timeline li div { padding-left: 1.4rem; }
 .timeline h3 { margin: 0 0 .5rem; font: 400 1.3rem var(--serif); }
 .timeline li p { margin: 0; color: var(--muted); line-height: 1.6; }
+.timeline blockquote { margin: 0; padding-left: 1rem; border-left: 2px solid var(--orange); }
+.timeline blockquote p + p { margin-top: .75rem; }
+.timeline a { color: var(--ink); text-underline-offset: .2em; }
+.archive-note { margin: 0 0 0 140px; color: var(--muted); font: .72rem/1.6 var(--mono); }
 
 .artifact-gallery { padding: 7rem 0; border-top: 1px solid var(--line); }
 .artifact-gallery > .section-label { display: flex; justify-content: space-between; align-items: end; margin-bottom: 2rem; }
@@ -128,6 +132,7 @@ footer { display: flex; justify-content: space-between; padding: 2rem 0 4rem; bo
   .timeline li { grid-template-columns: 76px 1fr; gap: 1rem; }
   .timeline li::before { left: 84px; }
   .timeline li::after { left: 80px; }
+  .archive-note { margin-left: 92px; }
   footer { display: block; }
 }
 @media (prefers-reduced-motion: reduce) {
