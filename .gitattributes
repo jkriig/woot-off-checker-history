@@ -1,2 +1,0 @@
-# Preserve the captured feed byte-for-byte, including its original CRLF endings.
-ds/rawwoot.xml binary
