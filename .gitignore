@@ -1,7 +1,6 @@
 # This repository is the static museum, not the retired PHP application.
 *
 !.gitignore
-!.gitattributes
 !README.md
 !index.html
 !museum.css
@@ -12,7 +11,3 @@
 !woot-soon.mp3
 !log.txt
 !xspf_player.as
-!ds/
-ds/*
-!ds/newitem.wav
-!ds/rawwoot.xml
