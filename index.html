@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f4efe3">
+  <meta name="description" content="A preserved exhibit of Semideaf's Woot-Off Checker, first built in 2006.">
+  <title>Semideaf's Woot-Off Checker — The 2006 Archive</title>
+  <link rel="icon" href="favicon.ico">
+  <link rel="stylesheet" href="museum.css">
+</head>
+<body>
+  <a class="skip-link" href="#exhibit">Skip to the exhibit</a>
+
+  <header class="museum-header">
+    <a class="wordmark" href="https://calmradar.com/" aria-label="Return to CalmRadar">
+      <span class="wordmark-mark" aria-hidden="true"></span>
+      CalmRadar Archives
+    </a>
+    <p>Digital artifact No. 001 <span aria-hidden="true">·</span> 2006–2013</p>
+  </header>
+
+  <main id="exhibit">
+    <section class="hero" aria-labelledby="exhibit-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A small piece of Woot community history</p>
+        <h1 id="exhibit-title">The Woot-Off<br>Checker</h1>
+        <p class="dek">
+          The first Woot-Off checker with an audio alert. It watched the page for
+          you, then called out when an item sold out or a new one appeared—even
+          if you had walked away or left the room.
+        </p>
+        <dl class="catalog-card" aria-label="Artifact details">
+          <div><dt>Created</dt><dd>June 9, 2006</dd></div>
+          <div><dt>Final version</dt><dd>1.7 · 2011</dd></div>
+          <div><dt>Original stack</dt><dd>PHP · JavaScript · Flash</dd></div>
+          <div><dt>Status</dt><dd><span class="status-dot"></span>Retired &amp; preserved</dd></div>
+        </dl>
+      </div>
+
+      <div class="artifact-frame" aria-label="Recreation of the original checker">
+        <div class="browser-chrome" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <div>semideaf.com/woot/woot.php</div>
+        </div>
+        <div class="old-page">
+          <p class="old-kicker">An interactive reconstruction</p>
+          <h2>Semideaf's Woot Checker <small>v1.7</small></h2>
+          <div class="old-rule"></div>
+          <p class="old-status" id="demo-status">50% left.</p>
+          <div class="meter" role="img" aria-label="Demo inventory at 50 percent">
+            <span></span>
+          </div>
+          <p class="old-copy">This page used a cache from up to 10 seconds ago and refreshed every 60 seconds.</p>
+          <button class="test-button" type="button" data-play="woot.mp3">Test the 2006 alert</button>
+          <p class="demo-note" id="demo-note" aria-live="polite">No popup or Flash required.</p>
+        </div>
+        <figcaption>
+          Rebuilt from the surviving interface and a
+          <a href="https://web.archive.org/web/20060706183758/http://semideaf.com/woot/woot.php" target="_blank" rel="noopener">July 2006 capture ↗</a>.
+          The checker itself no longer contacts Woot.
+        </figcaption>
+      </div>
+    </section>
+
+    <section class="story section-grid" aria-labelledby="story-title">
+      <div class="section-label">
+        <p>Gallery 01</p>
+        <h2 id="story-title">Why it existed</h2>
+      </div>
+      <div class="prose">
+        <p class="lead">Woot sold one item per day. During a Woot-Off, products could turn over in minutes—and getting the good one meant watching constantly.</p>
+        <p>
+          This checker changed that. The page refreshed itself, repeatedly read
+          Woot's inventory, and announced the moments that mattered: a sellout or
+          the arrival of a new product. You no longer had to stare at the screen—or
+          even remain in the same room—to know when it was time to come back.
+        </p>
+        <p>
+          It was the first checker of its kind to add an audio alert and was shared
+          with the FatWallet community in June 2006. The first surviving changelog
+          entry is version 0.1 on June 9. Later versions added different alert
+          thresholds, public source code, custom search, a no-sound edition, a
+          Kids.Woot tracker, and eventually Facebook's Like button.
+        </p>
+      </div>
+    </section>
+
+    <section class="sound-gallery" aria-labelledby="sounds-title">
+      <div class="section-label">
+        <p>Gallery 02</p>
+        <h2 id="sounds-title">The alerts</h2>
+      </div>
+      <p class="gallery-intro">The original Flash player is gone. These surviving files now play directly in modern browsers.</p>
+
+      <div class="sound-list">
+        <article class="sound-item">
+          <div class="track-number">01</div>
+          <div class="track-copy">
+            <h3>Woot-Off alert</h3>
+            <p>4.99 seconds · MP3 · the general alarm</p>
+          </div>
+          <audio controls preload="metadata" src="woot.mp3">Your browser cannot play this MP3.</audio>
+          <a href="woot.mp3" target="_blank" rel="noopener">Open MP3 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="sound-item">
+          <div class="track-number">02</div>
+          <div class="track-copy">
+            <h3>New item</h3>
+            <p>3.65 seconds · MP3 · played when the deal changed</p>
+          </div>
+          <audio controls preload="metadata" src="woot-new.mp3">Your browser cannot play this MP3.</audio>
+          <a href="woot-new.mp3" target="_blank" rel="noopener">Open MP3 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="sound-item">
+          <div class="track-number">03</div>
+          <div class="track-copy">
+            <h3>Almost gone</h3>
+            <p>3.29 seconds · MP3 · the low-inventory warning</p>
+          </div>
+          <audio controls preload="metadata" src="woot-soon.mp3">Your browser cannot play this MP3.</audio>
+          <a href="woot-soon.mp3" target="_blank" rel="noopener">Open MP3 <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="sound-item">
+          <div class="track-number">04</div>
+          <div class="track-copy">
+            <h3>Darkstar checker alert</h3>
+            <p>2.79 seconds · WAV · bundled with a later checker</p>
+          </div>
+          <audio controls preload="metadata" src="ds/newitem.wav">Your browser cannot play this WAV file.</audio>
+          <a href="ds/newitem.wav" target="_blank" rel="noopener">Open WAV <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <section class="timeline section-grid" aria-labelledby="timeline-title">
+      <div class="section-label">
+        <p>Gallery 03</p>
+        <h2 id="timeline-title">A brief history</h2>
+      </div>
+      <ol>
+        <li><time datetime="2006-06-09">Jun 2006</time><div><h3>The first audio alert</h3><p>Version 0.1 introduces the defining feature and the checker is posted to FatWallet.</p></div></li>
+        <li><time datetime="2006-07-06">Jul 2006</time><div><h3>Captured on the early web</h3><p>The surviving Wayback Machine snapshot preserves the checker only weeks after launch.</p></div></li>
+        <li><time datetime="2006-11">Nov 2006</time><div><h3>A very 2006 scaling problem</h3><p>Thousands of visits before 9 a.m. pushed a shared server's load above 70. DreamHost temporarily disabled the page; load dropped below 10.</p></div></li>
+        <li><time datetime="2007">2007</time><div><h3>More ways to listen</h3><p>Threshold-specific alerts, source release, and a no-sound version arrive.</p></div></li>
+        <li><time datetime="2011-08-16">Aug 2011</time><div><h3>Version 1.7</h3><p>The Woot-Off tracker is repaired and a Facebook Like button joins the page.</p></div></li>
+        <li><time datetime="2013-04-07">Apr 2013</time><div><h3>Last signal</h3><p>The final surviving status cache says the checker could no longer parse Woot.</p></div></li>
+        <li><time datetime="2026">2026</time><div><h3>Preserved</h3><p>The active tracker becomes a static exhibit. Its sounds and source artifacts remain intact.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="artifact-gallery" aria-labelledby="artifacts-title">
+      <div class="section-label">
+        <p>Study room</p>
+        <h2 id="artifacts-title">Look inside</h2>
+      </div>
+      <div class="artifact-cards">
+        <a href="https://web.archive.org/web/20060706183758/http://semideaf.com/woot/woot.php" target="_blank" rel="noopener"><span>Wayback Machine · Jul 2006</span><strong>Original page capture</strong><em>Visit archive ↗</em></a>
+        <a href="log.txt" target="_blank" rel="noopener"><span>Plain text · 1.1 KB</span><strong>Original changelog</strong><em>Open artifact ↗</em></a>
+        <a href="ds/rawwoot.xml" target="_blank" rel="noopener"><span>XML · cached data</span><strong>Captured Woot feed</strong><em>Open artifact ↗</em></a>
+        <a href="xspf_player.as" target="_blank" rel="noopener"><span>ActionScript · source artifact</span><strong>Flash audio player</strong><em>Open artifact ↗</em></a>
+      </div>
+      <p class="artifact-note">Some web servers may download source files instead of displaying them. The artifacts are preserved for study and are not intended to run.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Preserved by <a href="https://calmradar.com/">CalmRadar</a>.</p>
+    <p>Built in 2006. Retired with affection.</p>
+  </footer>
+
+  <script src="museum.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+
+ChangeLog
+
+Semideaf woot checker
+
+
+v1.7 (8/16/2011)
++ Fixed woot off tracker.
++ Facebook Like
+
+v1.6
++ added Kids.woot.com woot tracker
+
+v1.5
++ small redesigned for new woot site!
+
+
+v1.3
++ads
++google custom search
+
+v1.023
++smaller links
++got rid of counter
+
+v1.022
++switched servers
+
+v1.021
++Removed other woot verison links. They are now on the Main Page.
++New No Sound Verison.
+
+v1.02
++Removed Pop-up autoclose.
+
+v1.01D
++removed some code.
+
+v1.01C
++Released Source code.
+
+
+v1.01B
++Add different Alert Pages (Soldout Only,100-95%,5%-1%)
+
+
+V1.0D
++ Fixed 1-5% alert
++ Added Comment Widget
+
+V1.0A-C
++ Added 5%-1%
++ Added 100%-95%
+
+V0.9
++Fixed Alerts
++Fixed Timeout Issue
+
+V0.1 (Jun 9 2006)
++Added Alert
